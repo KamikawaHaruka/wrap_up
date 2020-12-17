@@ -15,6 +15,47 @@
         <p><label for="nm">名前</label></p>
         <input type="text" name="名前" value="例:山田 太郎" size="20" maxlength="20" id="nm">
     </div>
+    <div class="inner">
+        <p>性別</p>
+        <input type="radio" name="gender" value="Boy" id="g1">
+        <label for="g1">男性</label>
+        <input type="radio" name="gender" value="Girl" id="g2">
+        <label for="g2">女性</label>
+    </div>
+    <div class="inner">
+        <p>一番の好物<br>
+        <select name="food">
+            <optgroup label="米類">
+                <option value="A">卵かけご飯</option>
+                <option value="B">牛丼</option>
+                <option value="C">パエリア</option>
+                <option value="D">カレーライス</option>
+            </optgroup>
+            <optgroup label="パン類">
+                <option value="E">フレンチトースト</option>
+                <option value="F">あんぱん</option>
+                <option value="G">食パン</option>
+                <option value="H">カレーパン</option>
+            </optgroup>
+            <optgroup label="それ以外">
+                <option value="I">インスタント系</option>
+                <option value="J">野菜</option>
+                <option value="K">肉類</option>
+                <option value="L">その他</option>
+            </optgroup>
+        </select>
+        </p>
+    </div>
+    <div class="inner">
+        <p>長所・短所や趣味などの自己紹介<br>
+        <textarea name="jikosyokai" rows="6" cols="50">自由にご記入ください
+        </textarea>
+        </p>
+    </div>
+    <p>
+    <input type="submit" value="送信">
+    <input type="reset" value="リセット">
+    </p>
 </header>
 
 <main>
